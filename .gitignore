@@ -1,0 +1,21 @@
+# Create .gitignore
+cat > .gitignore << EOL
+# Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Database
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+EOL
